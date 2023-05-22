@@ -1,0 +1,22 @@
+.pizzalist {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  p {
+    font-size: 24px;
+    color: #444;
+    width: 70%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+}
